@@ -1,0 +1,134 @@
+import { Metadata } from 'next';
+import { SITE_NAME, SITE_URL, SITE_DESCRIPTION } from './constants';
+
+export function generateSEO(
+  title?: string,
+  description?: string,
+  image?: string,
+  keywords?: string[]
+): Metadata {
+  const pageTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+  const pageDescription = description || SITE_DESCRIPTION;
+  const pageImage = image || `${SITE_URL}/og-image.png`;
+  
+  const defaultKeywords = [
+    'Furqan Bodarni',
+    'Furqan Bodarni portfolio',
+    'Furqan Bodarni developer',
+    'Furqan Bodarni software engineer',
+    'Full Stack Developer',
+    'AI Developer',
+    'MERN Stack Developer',
+    'Full Stack & AI Developer',
+    'AI Software Engineer',
+    'MERN Stack Developer portfolio',
+    'Full Stack Developer portfolio',
+    'AI Developer India',
+    'Full Stack Developer India',
+    'Software Engineer India',
+    'React Developer',
+    'Next.js Developer',
+    'TypeScript Developer',
+    'Node.js Developer',
+    'Python Developer',
+    'Database Engineer',
+    'PostgreSQL Developer',
+    'MongoDB Developer',
+    'Web Developer India',
+    'Udupi Developer',
+    'Karnataka Developer',
+    'AI-powered web applications',
+    'Generative AI integration',
+    'SaaS Developer',
+    'Scalable web architecture',
+    'React Next.js portfolio'
+  ];
+
+  return {
+    title: pageTitle,
+    description: pageDescription,
+    keywords: keywords || defaultKeywords,
+    authors: [{ name: 'Furqan Bodarni', url: SITE_URL }],
+    creator: 'Furqan Bodarni',
+    publisher: 'Furqan Bodarni',
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+    },
+    metadataBase: new URL(SITE_URL),
+    alternates: {
+      canonical: SITE_URL,
+    },
+    category: 'technology',
+    classification: 'Portfolio',
+    other: {
+      author: 'Furqan Bodarni',
+      'geo.region': 'IN-KA',
+      'geo.placename': 'Udupi',
+      'msvalidate.01': 'A4F4F3D017DCEE9D5C80CF87569E9623',
+    },
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: '32x32' },
+      ],
+      shortcut: '/favicon.ico',
+      apple: [
+        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      ],
+      other: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '192x192',
+          url: '/android-chrome-192x192.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '512x512',
+          url: '/android-chrome-512x512.png',
+        },
+      ],
+    },
+    openGraph: {
+      title: pageTitle,
+      description: pageDescription,
+      url: SITE_URL,
+      siteName: SITE_NAME,
+      images: [
+        {
+          url: pageImage,
+          width: 1200,
+          height: 630,
+          alt: pageTitle,
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: pageDescription,
+      images: [pageImage],
+      creator: '@B_Furqan07',
+      site: '@B_Furqan07',
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    verification: {
+      google: 'ibL2p6r9xrTKR3U9o5zRTmVlFC4lAP_GheMlBWgOuGo',
+    },
+    manifest: '/site.webmanifest',
+  };
+}
