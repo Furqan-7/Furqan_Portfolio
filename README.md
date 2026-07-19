@@ -1,9 +1,6 @@
-# 🚀 Rameshwar Bhagwat - Portfolio
+# 🚀 Furqan Bodarni - Portfolio
 
 Modern, high-performance portfolio website built with Next.js 16, TypeScript, and Tailwind CSS.
-
-**Live Site**: [https://rameshwarbhagwat.me](https://rameshwarbhagwat.me)
-
 ---
 
 ## ✨ Features
@@ -53,8 +50,8 @@ Modern, high-performance portfolio website built with Next.js 16, TypeScript, an
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Rameshwar-bhagwat10/Ram-PortFolio.git
-cd Ram-PortFolio
+git clone
+
 ```
 
 2. **Install dependencies**
@@ -74,7 +71,7 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your_email@gmail.com
 SMTP_PASS=your_app_password
-SMTP_FROM=noreply@rameshwarbhagwat.me
+SMTP_FROM=noreply@.me
 ADMIN_EMAIL=your_email@gmail.com
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
@@ -262,11 +259,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Rameshwar Bhagwat**
-- Website: [rameshwarbhagwat.me](https://rameshwarbhagwat.me)
-- Email: rameshwarbhagwat019@gmail.com
-- GitHub: [@Rameshwar-bhagwat10](https://github.com/Rameshwar-bhagwat10)
-- LinkedIn: [Rameshwar Bhagwat](https://linkedin.com/in/rameshwar-bhagwat)
-
+- Website: N/A
+- Email: bodarnifurqan07@gmail.com
 ---
 
 ## 🙏 Acknowledgments
