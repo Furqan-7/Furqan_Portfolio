@@ -11,15 +11,15 @@ export default function ContactInfo() {
     <div className="space-y-6 text-left">
       <div>
         <h3 style={labelStyle} className="mb-1">Email</h3>
-        <p className="text-white/60 text-lg">rameshwarbhagwat019@gmail.com</p>
+        <p className="text-white/60 text-lg">bodarnifurqan07@gmail.com</p>
       </div>
       <div>
         <h3 style={labelStyle} className="mb-1">Phone</h3>
-        <p className="text-white/60 text-lg">+91 9699245170</p>
+        <p className="text-white/60 text-lg">+91 9743967986</p>
       </div>
       <div>
         <h3 style={labelStyle} className="mb-1">Location</h3>
-        <p className="text-white/60 text-lg">Yeola, Maharashtra, India</p>
+        <p className="text-white/60 text-lg">Udupi, Karnataka, India</p>
       </div>
     </div>
   );

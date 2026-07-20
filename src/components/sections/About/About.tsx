@@ -99,7 +99,7 @@ export default function About() {
       id="about"
       ref={aboutRef}
       className="relative z-20 w-full bg-[#0F0E0E] overflow-x-clip pb-12 rounded-t-[32px] md:rounded-t-[48px] lg:rounded-t-[64px] border-t border-white/15 shadow-[0_-24px_48px_rgba(0,0,0,0.8)]"
-      aria-label="About Rameshwar Bhagwat - Full Stack & AI Developer"
+      aria-label="About Furqan Bodarni - Full Stack & AI Developer"
       itemScope
       itemType="https://schema.org/Person"
     >
@@ -107,10 +107,10 @@ export default function About() {
       <meta itemProp="name" content={PERSONAL_INFO.name} />
       <meta itemProp="jobTitle" content={PERSONAL_INFO.jobTitle} />
       <meta itemProp="description" content={PERSONAL_INFO.bio} />
-      <meta itemProp="url" content="https://rameshwarbhagwat.me" />
+      <meta itemProp="url" content="https://furqanbodarni.vercel.app" />
       <meta itemProp="email" content={PERSONAL_INFO.email} />
       <meta itemProp="telephone" content={PERSONAL_INFO.phone} />
-      <meta itemProp="image" content={`https://rameshwarbhagwat.me${PERSONAL_INFO.image}`} />
+      <meta itemProp="image" content={`https://furqanbodarni.vercel.app${PERSONAL_INFO.image}`} />
 
       {/* Address Schema */}
       <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress" className="hidden">
@@ -134,7 +134,7 @@ export default function About() {
       {/* Occupation Schema */}
       <div itemProp="hasOccupation" itemScope itemType="https://schema.org/Occupation" className="hidden">
         <meta itemProp="name" content="Full Stack Developer" />
-        <meta itemProp="occupationLocation" content="Yeola, Maharashtra, India" />
+        <meta itemProp="occupationLocation" content="Udupi, Karnataka, India" />
         <meta itemProp="skills" content="React, Next.js, TypeScript, Node.js, JavaScript, MongoDB, Express.js" />
         <meta itemProp="experienceRequirements" content="1+ years" />
       </div>
@@ -159,15 +159,15 @@ export default function About() {
           <Container>
             {/* Hidden SEO Content */}
             <div className="sr-only">
-              <h2>About Rameshwar Bhagwat - Full Stack & AI Developer</h2>
+              <h2>About Furqan Bodarni - Full Stack & AI Developer</h2>
               <p>
-                Rameshwar Bhagwat is a Full Stack & AI Developer based in Yeola, Maharashtra, India,
+                Furqan Bodarni is a Full Stack & AI Developer based in Udupi, Karnataka, India,
                 specializing in React, Next.js, TypeScript, and modern web technologies.
-                With 1+ years of experience, Rameshwar Bhagwat builds scalable web applications and AI-driven products
-                like Devory and ThinkVerse. The Rameshwar Bhagwat portfolio showcases expertise in full-stack development,
+                With 1+ years of experience, Furqan Bodarni builds scalable web applications and AI-driven products
+                like Devory and ThinkVerse. The Furqan Bodarni portfolio showcases expertise in full-stack development,
                 machine learning integration, and SaaS platform development.
               </p>
-              <h3>Rameshwar Bhagwat - Core Skills and Expertise</h3>
+              <h3>Furqan Bodarni - Core Skills and Expertise</h3>
               <ul>
                 <li>Full Stack Development with MERN Stack (MongoDB, Express.js, React, Node.js)</li>
                 <li>Frontend Development: React, Next.js, TypeScript, JavaScript, HTML5, CSS3</li>
@@ -178,10 +178,10 @@ export default function About() {
                 <li>AI/ML Integration: TensorFlow, Python, Machine Learning APIs</li>
                 <li>System Design and Architecture</li>
               </ul>
-              <h3>Rameshwar Bhagwat - Professional Experience</h3>
+              <h3>Furqan Bodarni - Professional Experience</h3>
               <p>
-                Rameshwar Bhagwat has 1+ years of professional experience in web development, having worked on 7 projects
-                with happy clients. Notable projects by Rameshwar Bhagwat include Devory (AI-powered SaaS platform) and ThinkVerse (collaborative platform).
+                Furqan Bodarni has 1+ years of professional experience in web development, having worked on 7 projects
+                with happy clients. Notable projects by Furqan Bodarni include Devory (AI-powered SaaS platform) and ThinkVerse (collaborative platform).
               </p>
               <h3>Achievements</h3>
               <ul>
@@ -191,12 +191,12 @@ export default function About() {
                 <li>Mentored junior developers</li>
                 <li>IT Engineering background</li>
               </ul>
-              <h3>Contact Rameshwar Bhagwat</h3>
+              <h3>Contact Furqan Bodarni</h3>
               <address>
-                <p>Location: Yeola, Maharashtra, India</p>
-                <p>Email: rameshwarbhagwat019@gmail.com</p>
-                <p>Phone: +91 9699245170</p>
-                <p>Rameshwar Bhagwat is open to remote opportunities worldwide</p>
+                <p>Location: Udupi, Karnataka, India</p>
+                <p>Email: bodarnifurqan07@gmail.com</p>
+                <p>Phone: +91 9743967986</p>
+                <p>Furqan Bodarni is open to remote opportunities worldwide</p>
               </address>
             </div>
 

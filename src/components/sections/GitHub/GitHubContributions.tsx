@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Github } from 'lucide-react';
 import { PERSONAL_INFO } from '@/lib/constants';
 
-const GITHUB_USERNAME = 'Rameshwar-bhagwat10';
+const GITHUB_USERNAME = 'Furqan-7';
 
 interface ContributionDay {
   date: string;
